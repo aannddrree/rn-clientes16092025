@@ -1,16 +1,4 @@
-# Estrutura sugerida
-
-```
-rn-clientes16092025/
- ├─ docs/
- │   ├─ fluxo-app.png
- │   └─ arquitetura.png
- └─ README.md
-```
-
----
-
-# Conteúdo do README.md
+# Conteúdo
 
 ```markdown
 # 📱 RN Clientes — Aplicativo React Native com Login, Cadastro e Consulta
