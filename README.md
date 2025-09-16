@@ -22,8 +22,6 @@ Aplicativo didático criado em **React Native (Expo)** para demonstrar:
 
 ## 🧭 Fluxo do App
 
-![Fluxo do App](docs/fluxo-app.png)
-
 1. **LoginScreen** → autenticação.
 2. Se sucesso → **HomeScreen**.
 3. A partir da Home:
@@ -33,8 +31,6 @@ Aplicativo didático criado em **React Native (Expo)** para demonstrar:
 ---
 
 ## 🗂 Arquitetura de Pastas
-
-![Arquitetura](docs/arquitetura.png)
 
 ```
 
