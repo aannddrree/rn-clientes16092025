@@ -1,17 +1,15 @@
 import { clientsHttp } from "./api";
 
 export async function listClients() {
-  const { data } = await clientsHttp.get("/clients");
+  const { data } = await clientsHttp.get("");
   return data; // array
 }
 
 export async function createClient(client) {
-  
-  const { data } = await clientsHttp.post("/clients", client);
-  alert('Registro Inserido: ' + JSON.stringify(data))
+  const { data } = await clientsHttp.post("", client);
   return data;
 }
 
 export async function deleteClient(id) {
-  await clientsHttp.delete(`/clients/${id}`);
+  await clientsHttp.delete(`/${id}`);
 }
